@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nomeLivro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="0dp"
+        android:text="Nome"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/labelCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nomeLivro"
+        android:layout_below="@+id/nomeLivro"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="5dp"
+        android:text="Categoria"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/descricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/labelCategoria"
+        android:layout_below="@+id/labelCategoria"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="5dp"
+        android:text="Descrição"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/labelCodigo"
+        android:layout_below="@+id/labelCodigo"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="5dp"
+        android:text="Codigo"
+        android:textColor="@android:color/background_dark" />
+</LinearLayout>

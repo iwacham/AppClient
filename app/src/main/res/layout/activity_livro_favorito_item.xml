@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nomeLivroFavorito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="0dp"
+        android:text="Nome"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/labelCategoriaFavorito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nomeLivroFavorito"
+        android:layout_below="@+id/nomeLivroFavorito"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:text="Categoria"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/descricaoFavorito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/labelCategoriaFavorito"
+        android:layout_below="@+id/labelCategoriaFavorito"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:text="Descrição"
+        android:textColor="@android:color/background_dark" />
+</LinearLayout>
